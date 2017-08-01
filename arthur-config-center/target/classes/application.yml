@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/ArthurFamily/arthur.git
+          uri: https://git.oschina.net/null_986_2471/arthur.git
           search-paths: /dev
           strict-host-key-checking: false
 #  thymeleaf:
