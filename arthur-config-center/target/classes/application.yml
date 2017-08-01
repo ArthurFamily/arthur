@@ -14,8 +14,10 @@ spring:
       server:
         git:
           uri: https://github.com/ArthurFamily/arthur.git
-          search-paths: /config/dev
+          search-paths: /dev
           strict-host-key-checking: false
+          username: snowsniw
+          password: chenzhen88huai
 #  thymeleaf:
 #    mode: LEGACYHTML5
 #    prefix: classpath:/WEB-INF/view/
