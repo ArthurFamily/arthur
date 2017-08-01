@@ -22,7 +22,7 @@
         <!-- 后台管理之服务网管理 -->
         <module>arthur-manage-serviceWeb</module>
         <module>arthur-config-center</module>
-        <!-- 迎新流程 -->
+        <!-- 注册流程 -->
         <module>arthur-manage-registrationProcess</module>
         <!-- 集中监控断路器仪表盘 -->
         <module>arthur-monitor-turbine</module>

@@ -14,7 +14,7 @@ spring:
       server:
         git:
           uri: https://github.com/ArthurFamily/arthur.git
-          search-paths: /arthur-config-center/config-center/dev
+          search-paths: /config-center/dev
           strict-host-key-checking: false
 #  thymeleaf:
 #    mode: LEGACYHTML5
