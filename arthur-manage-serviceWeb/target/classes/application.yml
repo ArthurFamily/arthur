@@ -27,9 +27,7 @@ mybatis:
 
 #分页插件使用
 pagehelper:
-  dialect: com.github.pagehelper.dialect.helper.MySqlDialect
-  auto-dialect: true
-  close-conn: true
-  reasonable: true
-  params: count=countSql
-
+   helperDialect: mysql
+   reasonable: true
+   supportMethodsArguments: true
+   params: count=countSql

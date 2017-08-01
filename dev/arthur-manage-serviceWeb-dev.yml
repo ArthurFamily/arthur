@@ -1,0 +1,43 @@
+#develop
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://172.16.1.145:3306/test
+    username: root
+    password: 123421
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    filters: stat
+    maxActive: 100
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: select 'x'
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+  redis:
+    database: 0
+    # Redis服务器地址
+    host: 172.16.1.240
+    # Redis服务器连接端口
+    port: 6379
+    default:
+      use:
+        pool: true
+    password:
+    # 连接池最大连接数（使用负值表示没有限制）
+    pool:
+      max-active: 80
+    # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-wait: -1
+    # 连接池中的最大空闲连接
+      max-idle: 80
+    # 连接池中的最小空闲连接
+      min-idle: 0
+    # 连接超时时间（毫秒）
+    timeout: 0
