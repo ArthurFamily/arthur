@@ -13,7 +13,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/snowsniw/config-center.git
+          uri: https://github.com/ArthurFamily/arthur.git
           search-paths: /config/dev
           strict-host-key-checking: false
 #  thymeleaf:
