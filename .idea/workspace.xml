@@ -1,1038 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dc340c3-09c7-4862-bc35-910c624ccdf3" name="Default" comment="springcloud微服务项目初始化 包含JH注册中心、git配置中心、监控中心、熔断器turbine中心、feign通信等">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/static/eureka/images/jhipster-logo-eureka-mobile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/static/eureka/images/jhipster-logo-eureka.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/brown-papersq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/brown_papersq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/pojoaque.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/school-book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/school_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo vertical big.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo vertical medium.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo vertical small.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr-2-Logo-vertical-big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr-2-Logo-vertical-medium.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr-2-Logo-vertical-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/content/images/hipster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/content/images/hipster2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/content/images/logo-jhipster.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/config-center/dev/arthur-manage-registrationProcess-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/config-center/dev/arthur-manage-serviceWeb-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/config-center/dev/arthur-monitor-turbine-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/config-center/dev/jhipster-registry-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/src/main/java/com/cloud/arthur/ConfigCenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/src/main/resources/dev/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-config-center/src/main/resources/prod/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/central-config/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/gulp/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/gulp/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/gulp/handleErrors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/gulp/serve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/gulp/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/pom.xml.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/docker/dev/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/ApplicationWebXml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/JHipsterRegistry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/Constants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/DefaultProfileUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/JHipsterProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/LoggingConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/MetricsConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/SecurityConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/WebConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/metrics/SpectatorLogMetricWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/config/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/security/AuthoritiesConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/security/Http401UnauthorizedEntryPoint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/security/SecurityUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/security/jwt/JWTConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/security/jwt/JWTFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/security/jwt/TokenProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/filter/CachingHttpHeadersFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/filter/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/AccountResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/EurekaResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/JWTToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/LogsResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/ProfileInfoResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/SshResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/UserJWTController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/dto/EurekaDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/dto/LoggerDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/dto/LoginDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/dto/UserDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/dto/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/errors/CustomParameterizedException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/errors/ErrorConstants.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/errors/ErrorDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/errors/ExceptionTranslator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/errors/FieldErrorDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/errors/ParameterizedErrorDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/java/com/cloud/arthur/registry/web/rest/package-info.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/config/application-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/config/application-peer1.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/config/application-peer2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/config/application-prod.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/config/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/static/eureka/css/wro.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/resources/templates/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/admin.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/configuration/configuration.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/configuration/configuration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/configuration/configuration.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/configuration/configuration.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/health/health.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/health/health.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/health/health.modal.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/health/health.modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/health/health.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/health/health.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/logs/logs.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/logs/logs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/logs/logs.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/logs/logs.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/metrics/metrics.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/metrics/metrics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/metrics/metrics.modal.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/metrics/metrics.modal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/metrics/metrics.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/admin/metrics/metrics.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/app.constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/app.module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/app.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/applications/applications.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/applications/applications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/applications/applications.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/applications/applications.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/config/alert.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/config/compile.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/config/http.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/config/localstorage.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/handlers/state.handler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/interceptor/auth.interceptor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/blocks/interceptor/notification.interceptor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/alert/alert-error.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/alert/alert.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/alert/alert.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/form/pagination.constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/form/show-validation.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/form/uib-pager.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/form/uib-pagination.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/login/login.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/login/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/login/login.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/base64.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/capitalize.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/data-util.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/date-util.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/pagination-util.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/parse-links.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/sort-by.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/sort.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/status-label.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/truncate-characters.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/components/util/truncate-words.filter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/config/config.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/config/config.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/config/config.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/config/config.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/history/history.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/history/history.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/history/history.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/history/history.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/home/eureka.status.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/home/home.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/home/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/home/home.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/layouts/error/accessdenied.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/layouts/error/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/layouts/error/error.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/layouts/navbar/active-link.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/layouts/navbar/navbar.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/layouts/navbar/navbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/replicas/replicas.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/replicas/replicas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/replicas/replicas.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/replicas/replicas.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/auth/account.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/auth/auth.jwt.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/auth/auth.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/auth/has-any-authority.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/auth/has-authority.directive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/auth/principal.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/services/profile.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/ssh/ssh.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/ssh/ssh.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/ssh/ssh.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/app/ssh/ssh.state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/angular-aria.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/angular-aria.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/angular-aria.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-aria/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/ui-bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-bootstrap/ui-bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cache-buster/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cache-buster/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cache-buster/angular-cache-buster.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cache-buster/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cache-buster/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cache-buster/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/angular-cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/angular-cookies.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/angular-cookies.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-cookies/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/angular-highlightjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/angular-highlightjs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/build/angular-highlightjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/build/angular-highlightjs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-highlightjs/src/angular-highlightjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/PULL_REQUEST_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/build/loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/build/loading-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/build/loading-bar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/build/loading-bar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/src/loading-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-loading-bar/src/loading-bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/angular-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/ngAnimateMock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/ngMock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/ngMockE2E.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-mocks/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-resource/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-sanitize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/bootswatch-dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/highlight.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/highlight.pack.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/agate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/androidstudio.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/arduino-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/arta.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/ascetic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-cave-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-cave-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-cave.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-cave.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-dune-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-dune-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-dune.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-dune.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-estuary-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-estuary-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-estuary.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-estuary.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-forest-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-forest-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-forest.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-forest.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-heath-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-heath-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-heath.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-heath.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-lakeside-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-lakeside-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-lakeside.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-lakeside.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-plateau-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-plateau-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-plateau.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-plateau.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-savanna-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-savanna-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-savanna.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-savanna.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-seaside-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-seaside-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-seaside.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-seaside.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-sulphurpool-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-sulphurpool-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-sulphurpool.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/atelier-sulphurpool.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/brown-paper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/brown_paper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/codepen-embed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/color-brewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/darkula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/dracula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/far.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/github-gist.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/github.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/googlecode.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/grayscale.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/gruvbox-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/gruvbox-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/hopscotch.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/hybrid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/idea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/ir-black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/ir_black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/kimbie.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/kimbie.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/magula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/mono-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/monokai-sublime.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/monokai_sublime.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/obsidian.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/paraiso-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/paraiso-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/paraiso.dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/paraiso.light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/pojoaque.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/qtcreator_dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/qtcreator_light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/railscasts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/rainbow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/school-book.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/school_book.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/solarized-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/solarized-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/solarized_dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/solarized_light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/sunburst.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/tomorrow-night-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/tomorrow-night-bright.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/tomorrow-night-eighties.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/tomorrow-night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/vs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/xcode.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/highlightjs/styles/zenburn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/AUTHORS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/dist/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/dist/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/dist/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/external/sizzle/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/external/sizzle/dist/sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/external/sizzle/dist/sizzle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/external/sizzle/dist/sizzle.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/parseJSON.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/parseXML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/var/location.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/var/nonce.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/var/rquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/attributes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/attributes/attr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/attributes/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/attributes/prop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/attributes/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/attributes/val.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/core/access.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/core/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/core/parseHTML.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/core/ready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/core/var/rsingleTag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/addGetHookIf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/adjustCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/curCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/defaultDisplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/showHide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/var/cssExpand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/var/getStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/var/isHidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/var/rmargin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/var/rnumnonpx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/css/var/swap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/data/Data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/data/var/acceptData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/data/var/dataPriv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/data/var/dataUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/deferred.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/deprecated.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/dimensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/effects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/effects/Tween.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/event.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/event/ajax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/event/alias.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/event/focusin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/event/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/event/trigger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/exports/amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/exports/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/intro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/_evalUrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/buildFragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/getAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/setGlobalEval.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/var/rscriptType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/var/rtagName.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/manipulation/wrapMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/offset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/outro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/queue/delay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/selector-native.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/selector-sizzle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/serialize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/traversing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/traversing/findFilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/traversing/var/dir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/traversing/var/rneedsContext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/traversing/var/siblings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/arr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/class2type.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/concat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/documentElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/hasOwn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/indexOf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/pnum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/rcssNum.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/rnotwhite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/var/toString.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/jquery/src/wrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/lib/json3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/json3/lib/json3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/bin/messageformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/MessageFormat.formatters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/MessageFormat.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/Runtime.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/messageformat.js.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/scripts/linenumber.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/scripts/prettify/Apache-License-2.0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/scripts/prettify/lang-css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/scripts/prettify/prettify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/styles/prettify-jsdoc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/doc/styles/prettify-tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/en/colors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/en/i18n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/en/sub/folder/plural.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/fr/colors.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/fr/i18n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/fr/sub/folder/plural.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/fr/true" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/example/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/messageformat/messageformat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.coveralls.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.jshintignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/appveyor.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/bin/modernizr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/a/download.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/ambientlight.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/applicationcache.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/audio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/audio/loop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/audio/preload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/audio/webaudio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/battery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/battery/lowbattery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/blob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/canvas/blending.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/canvas/todataurl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/canvas/winding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/canvastext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/contenteditable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/contextmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/cookies.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/cors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/crypto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/crypto/getrandomvalues.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/animations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/appearance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backdropfilter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundblendmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundcliptext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundposition-shorthand.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundposition-xy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundrepeat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundsize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/backgroundsizecover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/borderimage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/borderradius.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/boxshadow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/boxsizing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/calc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/checked.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/chunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/columns.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/cubicbezierrange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/displayrunin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/displaytable.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/ellipsis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/escape.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/exunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/flexbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/flexboxlegacy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/flexboxtweener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/flexwrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/fontface.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/generatedcontent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/gradients.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/hairline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/hsla.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/hyphens.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/invalid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/lastchild.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/mask.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/mediaqueries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/multiplebgs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/nthchild.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/objectfit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/opacity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/overflow-scrolling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/pointerevents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/positionsticky.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/pseudoanimations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/pseudotransitions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/reflections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/regions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/remunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/resize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/rgba.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/scrollbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/scrollsnappoints.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/shapes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/siblinggeneral.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/subpixelfont.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/supports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/target.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/textalignlast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/textshadow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/transforms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/transforms3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/transformstylepreserve3d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/transitions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/userselect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/valid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/vhunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/vmaxunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/vminunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/vwunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/will-change.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/css/wrapflow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/custom-protocol-handler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/customevent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dataview-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/classlist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/createElement-attrs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/dataset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/documentfragment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/hidden.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/microdata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/dom/mutationObserver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/bdi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/datalist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/details.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/output.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/picture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/progress-meter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/time.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/track.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/elem/unknown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/emoji.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/date.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/function.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/specification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/strictmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/syntax.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es5/undefined.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/contains.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/generators.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/math.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/number.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/promises.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/es6/string.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/event/deviceorientation-motion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/event/oninput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/eventlistener.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/exif-orientation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/file/api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/file/filesystem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/flash.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forcetouch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/capture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/fileinput.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/fileinputdirectory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/formattribute.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/inputnumber-l10n.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/requestautocomplete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/forms/validation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/fullscreen-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/gamepad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/geolocation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/hashchange.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/hiddenscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/history.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/htmlimports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/ie8compat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/iframe/sandbox.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/iframe/seamless.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/iframe/srcdoc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/apng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/crossorigin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/jpeg2000.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/jpegxr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/sizes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/srcset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/webp-alpha.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/webp-animation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/webp-lossless.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/img/webp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/indexeddb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/indexeddbblob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/input.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/input/formaction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/input/formenctype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/input/formmethod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/input/formtarget.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/inputsearchevent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/inputtypes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/intl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/ligatures.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/lists-reversed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/mathml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/beacon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/eventsource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/fetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr-responsetype-arraybuffer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr-responsetype-blob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr-responsetype-document.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr-responsetype-json.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr-responsetype-text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr-responsetype.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/network/xhr2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/pagevisibility-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/performance.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/pointerevents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/pointerlock-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/postmessage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/proximity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/queryselector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/quota-management-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/requestanimationframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/script/async.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/script/defer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/serviceworker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/speech/speech-recognition.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/speech/speech-synthesis.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/storage/localstorage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/storage/sessionstorage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/storage/websqldatabase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/style/scoped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg/asimg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg/clippaths.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg/filters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg/foreignobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg/inline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/svg/smil.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/templatestrings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/textarea/maxlength.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/touchevents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/typed-arrays.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/unicode-range.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/unicode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/url/bloburls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/url/data-uri.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/url/parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/userdata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/vibration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/video.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/video/autoplay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/video/loop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/video/preload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/vml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/web-intents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/webanimations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/webgl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/webgl/extensions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/webrtc/datachannel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/webrtc/getusermedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/webrtc/peerconnection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/websockets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/websockets/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/window/atob-btoa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/window/framed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/window/matchmedia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/workers/blobworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/workers/dataworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/workers/sharedworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/workers/transferables.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/workers/webworkers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/feature-detects/xdomainrequest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/build-query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/config-all.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/generate-banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/lib/polyfills.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/media/Modernizr 2 Logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/Modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/ModernizrProto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/addTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/atRule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/contains.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/createElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/cssToDOM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/cssomPrefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/docElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/domPrefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/domToCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/fnBind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/generate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/getBody.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/hasEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/hasOwnProp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/html5printshiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/injectElementWithStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/inputElem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/isSVG.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/mStyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/modElem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/mq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/nativeTestProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/omPrefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/prefixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/prefixedCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/prefixedCSSValue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/prefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/roundedEquals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/setClasses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testAllProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testDOMProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testProp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testPropsAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testRunner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/testXhrType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/src/toStringFn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/iframe.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/bools.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/caniuse.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/iframe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/prefixed-atRule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/prefixed-autobind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/prefixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/prefixedCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/integration/svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/sauce-browsers.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/setup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/Modernizr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/ModernizrProto.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/addTest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/atRule.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/classes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/contains.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/createElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/cssToDOM.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/cssomPrefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/docElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/domPrefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/domToCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/fnBind.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/generate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/getBody.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/hasEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/hasOwnProp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/html5printshiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/injectElementWithStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/inputElem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/load.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/mStyle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/modElem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/mq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/nativeTestProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/omPrefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/prefixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/prefixedCSS.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/prefixedCSSValue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/prefixes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/roundedEquals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/setClasses.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/slice.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testAllProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testDOMProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testProp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testProps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testPropsAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testRunner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testStyles.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/testXhrType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/src/toStringFn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/svgUnit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/browser/unit.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/cleanup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/img/integration.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/img/unit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/js/lib/sinon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/js/lib/uaparser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/mocks/lib/build-query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/mocks/lib/metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/node/lib/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/node/lib/cli.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/node/lib/metadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/node/lib/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/universal/lib/build-query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/modernizr/test/universal/lib/generate-banner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/ngStorage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/ngStorage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/bower_components/ngstorage/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/content/css/documentation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/content/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-eureka/src/main/webapp/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/RegistrationProcess.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/CustomWebBindingInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/ServletInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/WebConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/WebMvcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/mybatis/BaseMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/redis/RedisConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/config/redis/RedisDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/controller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/filter/LoginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/util/MapUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/util/MsgUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/util/RightUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/java/com/cloud/arthur/util/SerializeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/resources/dev/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/resources/dev/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-registrationProcess/src/main/resources/prod/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/ManageServiceWeb.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/bean/Users.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/CustomWebBindingInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/ServletInitializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/WebConfigurer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/WebMvcConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/mybatis/BaseMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/mybatis/Dao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/redis/RedisConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/redis/RedisDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/controller/TestController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/feignService/RegistrationProcessFeignService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/filter/LoginFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/mapper/UsersMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/service/UsersService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/util/MapUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/util/MsgUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/util/RightUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/util/SerializeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/dev/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/dev/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/mapper/users/UsersMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/prod/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/src/main/java/com/cloud/arthur/MonitorTurbine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/application.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/bootstrap.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/prod/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-    </list>
+    <list default="true" id="0dc340c3-09c7-4862-bc35-910c624ccdf3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/arthur-eureka/target/" />
@@ -1060,28 +29,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UsersMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/mapper/users/UsersMapper.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <marker date="1501556563000" expanded="true" signature="332:376" ph="select * fro... users" />
-                <marker date="1501556563000" expanded="true" signature="494:513" ph="select * fro... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-              <folding>
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-43">
+              <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1109,8 +62,8 @@
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -1139,7 +92,7 @@
         </entry>
       </file>
       <file leaf-file-name="jhipster-registry-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arthur-config-center/config-center/dev/jhipster-registry-dev.yml">
+        <entry file="file://$PROJECT_DIR$/dev/jhipster-registry-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1151,21 +104,19 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arthur-config-center/src/main/resources/dev/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/bean/Users.java">
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/redis/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-179">
+              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1220,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/develop/application.properties" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/develop/application.yml" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/util/MsgUtil.java" />
@@ -1263,13 +213,14 @@
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/mybatis/BaseMapper.java" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/mapper/UsersMapper.java" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/mapper/users/UsersMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/dev/bootstrap.yml" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/service/UsersService.java" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/controller/TestController.java" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/pom.xml" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/bean/Users.java" />
         <option value="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/dev/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-center/README.md" />
         <option value="$PROJECT_DIR$/arthur-config-center/src/main/resources/dev/application.yml" />
       </list>
     </option>
@@ -1379,14 +330,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/arthur-config-center/config-center" />
       <recent name="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/mappers" />
       <recent name="$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev" />
       <recent name="$PROJECT_DIR$/arthur-monitor-turbine/src" />
-      <recent name="$PROJECT_DIR$/arthur-manage-registrationProcess/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -1395,6 +347,8 @@
       <recent name="com.cloud.arthur.filter" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/mappers/users" />
       <recent name="$PROJECT_DIR$/arthur-eureka/src/main/java" />
     </key>
@@ -2002,20 +956,72 @@
       <workItem from="1501118051723" duration="27353000" />
       <workItem from="1501204400754" duration="27010000" />
       <workItem from="1501462478648" duration="596000" />
-      <workItem from="1501548565024" duration="15678000" />
+      <workItem from="1501548565024" duration="24249000" />
     </task>
+    <task id="LOCAL-00001" summary="本地化配置测试">
+      <created>1501575003178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501575003179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="集中配置地址更新">
+      <created>1501577531019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501577531019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="名称变更">
+      <created>1501578301577</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501578301577</updated>
+    </task>
+    <task id="LOCAL-00004" summary="配置文件单独项目，路径无所谓，配置文件放入项目git，则只能访问一层">
+      <created>1501578638400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501578638400</updated>
+    </task>
+    <task id="LOCAL-00005" summary="白搭">
+      <created>1501579051604</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501579051604</updated>
+    </task>
+    <task id="LOCAL-00006" summary="白搭">
+      <created>1501579134815</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1501579134815</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121174000" />
+    <option name="totallyTimeSpent" value="129745000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18383405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5661451" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08941345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2024,19 +1030,20 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304721" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49786627" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6386913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47083926" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44523472" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35479257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46638054" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2044,18 +1051,32 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46638054" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud微服务项目初始化 包含JH注册中心、git配置中心、监控中心、熔断器turbine中心、feign通信等" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud微服务项目初始化 包含JH注册中心、git配置中心、监控中心、熔断器turbine中心、feign通信等" />
+    <MESSAGE value="本地化配置测试" />
+    <MESSAGE value="集中配置地址更新" />
+    <MESSAGE value="名称变更" />
+    <MESSAGE value="配置文件单独项目，路径无所谓，配置文件放入项目git，则只能访问一层" />
+    <MESSAGE value="白搭" />
+    <option name="LAST_COMMIT_MESSAGE" value="白搭" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2068,34 +1089,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arthur-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="190" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Documents/maven/maven/maven32/M2_REPO/org/springframework/cloud/spring-cloud-commons/1.2.0.RELEASE/spring-cloud-commons-1.2.0.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/WebConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/redis/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4379,16 +3376,8 @@
         <state relative-caret-position="387">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4397,8 +3386,8 @@
         <state relative-caret-position="315">
           <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
           <folding>
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4419,7 +3408,7 @@
         <state relative-caret-position="170">
           <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4442,22 +3431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/resources/dev/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -4466,7 +3439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arthur-config-center/config-center/dev/jhipster-registry-dev.yml">
+    <entry file="file://$PROJECT_DIR$/dev/jhipster-registry-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -4474,10 +3447,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/arthur-manage-serviceWeb/src/main/java/com/cloud/arthur/config/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/jhipster-registry-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arthur-monitor-turbine/src/main/resources/dev/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/arthur-config-center/src/main/resources/dev/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="15" column="51" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="57" />
           <folding />
         </state>
       </provider>
