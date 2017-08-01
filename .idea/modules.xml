@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/arthur.iml" filepath="$PROJECT_DIR$/arthur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arthur-config-center/arthur-config-center.iml" filepath="$PROJECT_DIR$/arthur-config-center/arthur-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arthur-eureka/arthur-eureka.iml" filepath="$PROJECT_DIR$/arthur-eureka/arthur-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arthur-manage-registrationProcess/arthur-manage-registrationProcess.iml" filepath="$PROJECT_DIR$/arthur-manage-registrationProcess/arthur-manage-registrationProcess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arthur-manage-serviceWeb/arthur-manage-serviceWeb.iml" filepath="$PROJECT_DIR$/arthur-manage-serviceWeb/arthur-manage-serviceWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arthur-monitor-turbine/arthur-monitor-turbine.iml" filepath="$PROJECT_DIR$/arthur-monitor-turbine/arthur-monitor-turbine.iml" />
+    </modules>
+  </component>
+</project>

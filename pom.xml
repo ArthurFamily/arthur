@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <groupId>org.springframework.boot</groupId>
+        <version>1.5.2.RELEASE</version>
+        <relativePath />
+    </parent>
+
+    <groupId>com.cloud.arthur</groupId>
+    <artifactId>arthur-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>v1</version>
+    <modules>
+
+        <!-- 注册中心与配置中心使用jhipster2.6.0 -->
+        <module>arthur-eureka</module>
+        <!-- 后台管理之服务网管理 -->
+        <module>arthur-manage-serviceWeb</module>
+        <module>arthur-config-center</module>
+        <!-- 迎新流程 -->
+        <module>arthur-manage-registrationProcess</module>
+        <!-- 集中监控断路器仪表盘 -->
+        <module>arthur-monitor-turbine</module>
+    </modules>
+
+    <properties>
+        <eureka-version>1.3.0.RELEASE</eureka-version>
+        <springboot-mybatis>1.1.1</springboot-mybatis>
+        <commons-lang3>3.5</commons-lang3>
+        <springboot-version>1.5.4.RELEASE</springboot-version>
+        <mysql-version>5.1.42</mysql-version>
+        <druid-version>1.0.15</druid-version>
+        <springcloudconfig-version>1.3.0.RELEASE</springcloudconfig-version>
+        <spring-boot-starter-actuator-version>1.5.4.RELEASE</spring-boot-starter-actuator-version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <!--
+         动态加载更改的配置，自动配置不需要使用，使用需自己初始化config的bean
+         更改的配置bean加@RefreshScope注解，并配置文件中需要配置mq
+         spring.rabbitmq.host=localhost
+         spring.rabbitmq.port=5672
+         spring.rabbitmq.username=guest
+         spring.rabbitmq.password=guest
+         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+         -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!-- fegin 自带断路器-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+        <!-- 断路器 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+            <version>${eureka-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+            <version>${springcloudconfig-version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>spring-boot</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <!-- 一般starter组件都存在logging，此处需排除 -->
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>spring-boot</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>${springboot-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.collections</groupId>
+            <artifactId>google-collections</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.12</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="arthur-config-center" />
+        <module name="arthur-eureka" />
+        <module name="arthur-manage-registrationProcess" />
+        <module name="arthur-manage-serviceWeb" />
+        <module name="arthur-monitor-turbine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="arthur" target="1.6" />
+      <module name="arthur-config-center" target="1.6" />
+      <module name="arthur-eureka" target="1.8" />
+      <module name="arthur-manage-registrationProcess" target="1.6" />
+      <module name="arthur-manage-serviceWeb" target="1.6" />
+      <module name="arthur-monitor-turbine" target="1.6" />
+      <module name="test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

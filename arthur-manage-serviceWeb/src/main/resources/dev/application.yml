@@ -1,0 +1,33 @@
+#develop
+# zuul配置
+zuul:
+    host:
+        max-total-connections: 1000
+        max-per-route-connections: 100
+    semaphore:
+        max-semaphores: 500
+
+# 熔断器配置
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 10000
+
+#前端负载配置
+ribbon:
+  eureka:
+    enabled: true
+
+# mybatis mapper 文件
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+
+#分页插件使用
+pagehelper:
+   helperDialect: mysql
+   reasonable: true
+   supportMethodsArguments: true
+   params: count=countSql

@@ -1,0 +1,24 @@
+#develop
+# zuul配置
+zuul:
+    host:
+        max-total-connections: 1000
+        max-per-route-connections: 100
+    semaphore:
+        max-semaphores: 500
+
+# 熔断器配置
+hystrix:
+    config:
+        stream:
+            maxConcurrentConnections: 500
+    command:
+        default:
+            execution:
+                isolation:
+                    thread:
+                        timeoutInMilliseconds: 10000
+
+ribbon:
+  eureka:
+    enabled: true

@@ -1,0 +1,13 @@
+#develop
+# zuul配置
+zuul:
+    host:
+        max-total-connections: 1000
+        max-per-route-connections: 100
+    semaphore:
+        max-semaphores: 500
+
+#前端负载配置
+ribbon:
+  eureka:
+    enabled: true

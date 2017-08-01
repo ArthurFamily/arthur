@@ -1,0 +1,208 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties",
+      "name": "jhipster",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties",
+      "name": "jhipster.http",
+      "sourceMethod": "getHttp()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Http"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Http",
+      "name": "jhipster.http.cache",
+      "sourceMethod": "getCache()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Http$Cache"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties",
+      "name": "jhipster.logging",
+      "sourceMethod": "getLogging()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Logging"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging",
+      "name": "jhipster.logging.logstash",
+      "sourceMethod": "getLogstash()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$Logstash"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging",
+      "name": "jhipster.logging.spectator-metrics",
+      "sourceMethod": "getSpectatorMetrics()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$SpectatorMetrics"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties",
+      "name": "jhipster.metrics",
+      "sourceMethod": "getMetrics()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics",
+      "name": "jhipster.metrics.graphite",
+      "sourceMethod": "getGraphite()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Graphite"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics",
+      "name": "jhipster.metrics.jmx",
+      "sourceMethod": "getJmx()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Jmx"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics",
+      "name": "jhipster.metrics.logs",
+      "sourceMethod": "getLogs()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Logs"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics",
+      "name": "jhipster.metrics.spark",
+      "sourceMethod": "getSpark()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Spark"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties",
+      "name": "jhipster.ribbon",
+      "sourceMethod": "getRibbon()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Ribbon"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties",
+      "name": "jhipster.security",
+      "sourceMethod": "getSecurity()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Security"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Security",
+      "name": "jhipster.security.authentication",
+      "sourceMethod": "getAuthentication()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Security$Authentication"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Security$Authentication",
+      "name": "jhipster.security.authentication.jwt",
+      "sourceMethod": "getJwt()",
+      "type": "com.cloud.arthur.registry.config.JHipsterProperties$Security$Authentication$Jwt"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Http$Cache",
+      "defaultValue": 1461,
+      "name": "jhipster.http.cache.time-to-live-in-days",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$Logstash",
+      "defaultValue": false,
+      "name": "jhipster.logging.logstash.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$Logstash",
+      "defaultValue": "localhost",
+      "name": "jhipster.logging.logstash.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$Logstash",
+      "defaultValue": 5000,
+      "name": "jhipster.logging.logstash.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$Logstash",
+      "defaultValue": 512,
+      "name": "jhipster.logging.logstash.queue-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Logging$SpectatorMetrics",
+      "defaultValue": false,
+      "name": "jhipster.logging.spectator-metrics.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Graphite",
+      "defaultValue": false,
+      "name": "jhipster.metrics.graphite.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Graphite",
+      "defaultValue": "localhost",
+      "name": "jhipster.metrics.graphite.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Graphite",
+      "defaultValue": 2003,
+      "name": "jhipster.metrics.graphite.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Graphite",
+      "defaultValue": "jhipster-registry",
+      "name": "jhipster.metrics.graphite.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Jmx",
+      "defaultValue": true,
+      "name": "jhipster.metrics.jmx.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Logs",
+      "defaultValue": false,
+      "name": "jhipster.metrics.logs.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Spark",
+      "defaultValue": false,
+      "name": "jhipster.metrics.spark.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Spark",
+      "defaultValue": "localhost",
+      "name": "jhipster.metrics.spark.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Metrics$Spark",
+      "defaultValue": 9999,
+      "name": "jhipster.metrics.spark.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Ribbon",
+      "name": "jhipster.ribbon.display-on-active-profiles",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Security$Authentication$Jwt",
+      "name": "jhipster.security.authentication.jwt.secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Security$Authentication$Jwt",
+      "defaultValue": 1800,
+      "name": "jhipster.security.authentication.jwt.token-validity-in-seconds",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.cloud.arthur.registry.config.JHipsterProperties$Security$Authentication$Jwt",
+      "defaultValue": 2592000,
+      "name": "jhipster.security.authentication.jwt.token-validity-in-seconds-for-remember-me",
+      "type": "java.lang.Long"
+    }
+  ]
+}
