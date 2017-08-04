@@ -14,7 +14,7 @@ spring:
       server:
         git:
           uri: https://git.oschina.net/null_986_2471/arthur.git
-          search-paths: /dev
+          search-paths: /arthur-config-center/config/dev
           strict-host-key-checking: false
 #  thymeleaf:
 #    mode: LEGACYHTML5

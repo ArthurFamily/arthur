@@ -13,8 +13,8 @@ spring:
     config:
       server:
         git:
-          uri: https://git.oschina.net/null_986_2471/arthur.git
-          search-paths: /arthur-config-center/config/dev
+          uri: https://github.com/ArthurFamily/config-center.git
+          search-paths: /config/dev
           strict-host-key-checking: false
 #  thymeleaf:
 #    mode: LEGACYHTML5
