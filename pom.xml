@@ -26,6 +26,7 @@
         <module>arthur-manage-registrationProcess</module>
         <!-- 集中监控断路器仪表盘 -->
         <module>arthur-monitor-turbine</module>
+        <module>arthut-gateway</module>
     </modules>
 
     <properties>

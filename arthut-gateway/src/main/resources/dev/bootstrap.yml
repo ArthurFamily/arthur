@@ -1,6 +1,6 @@
 spring:
   application:
-    name: arthur-config-center
+    name: arthur-gateway
   profiles:
     active: dev
   output:
@@ -8,14 +8,15 @@ spring:
       enabled: ALWAYS
   jackson:
     default-property-inclusion: non_null
-  #配置中心 GitHub配置
   cloud:
     config:
-      server:
-        git:
-          uri: https://github.com/ArthurFamily/config-center.git
-          search-paths: /config/dev
-          strict-host-key-checking: false
+      discovery:
+        enabled: true
+        service-id: arthur-config-center
+server:
+  port: 9999
+  #context-path: /web
+
 #  thymeleaf:
 #    mode: LEGACYHTML5
 #    prefix: classpath:/WEB-INF/view/
@@ -29,15 +30,12 @@ spring:
 #mybatis:
 #  mapper-locations: classpath:mybatis/**/*.xml
 #  config-location: classpath:mybatis-config.xml
-server:
-  port: 10002
-  #context-path: /web
 
 # 注册中心
 eureka:
   client:
     enabled: true
-    #注册中心开启健康检查会刷新上下文
+    #此处开启健康检查与高可用配置中心冲突，不可并存
     healthcheck:
         enabled: false
     fetch-registry: true
@@ -57,43 +55,22 @@ eureka:
           zone: primary
           profile: ${spring.profiles.active}
           version: ${info.project.version}
+
+# 管理中心配置
+management:
+    security:
+        roles: ADMIN
+    #context-path: /monitor #配置之后所有监控前需加
+    health:
+        mail:
+            enabled: false # When using the MailService, configure an SMTP server and set this to true
+
 # 配置中心
 eurekaCenter:
   username: admin
   pasword: admin
 
-#develop
-# zuul配置
-zuul:
-    host:
-        max-total-connections: 1000
-        max-per-route-connections: 100
-    semaphore:
-        max-semaphores: 500
-
-# 熔断器配置
-hystrix:
-    command:
-        default:
-            execution:
-                isolation:
-                    thread:
-                        timeoutInMilliseconds: 10000
-#前端负载配置
-ribbon:
-  eureka:
-    enabled: true
-
-# 健康监控中心配置
-management:
-    security:
-        roles: ADMIN
-    context-path: /management
-    health:
-        mail:
-            enabled: false # When using the MailService, configure an SMTP server and set this to true
 #版本
 info:
   project:
     version: v1
-

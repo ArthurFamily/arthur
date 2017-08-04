@@ -9,8 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>arthur-manage-registrationProcess</artifactId>
-    <packaging>jar</packaging>
+    <!-- 网关 -->
+    <artifactId>arthut-gateway</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+        </dependency>
+    </dependencies>
 
     <profiles>
         <profile>
@@ -33,26 +40,8 @@
             </properties>
         </profile>
     </profiles>
-    <dependencies>
-        <!-- 自动配置，引入后，配置文件里必须配置，用到再引入故不在父级放置 -->
-        <dependency>
-            <groupId>tk.mybatis</groupId>
-            <artifactId>mapper-spring-boot-starter</artifactId>
-            <version>${springboot-mybatis}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>spring-boot</artifactId>
-                    <groupId>org.springframework.boot</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
-        </dependency>
-    </dependencies>
     <build>
-        <finalName>manageRegistrationProcess-${version}</finalName>
+        <finalName>gateway-${version}</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

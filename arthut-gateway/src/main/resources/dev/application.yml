@@ -1,0 +1,4 @@
+#前端负载配置
+ribbon:
+  eureka:
+    enabled: true
