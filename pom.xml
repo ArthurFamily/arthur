@@ -26,6 +26,7 @@
         <module>arthur-manage-registrationProcess</module>
         <!-- 集中监控断路器仪表盘 -->
         <module>arthur-monitor-turbine</module>
+        <!-- zuul网关 -->
         <module>arthut-gateway</module>
     </modules>
 
@@ -130,14 +131,20 @@
             <version>${druid-version}</version>
         </dependency>
         <dependency>
-            <groupId>com.google.collections</groupId>
-            <artifactId>google-collections</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.12</version>
+        </dependency>
+        <!-- swagger支持 每个项目通过注册中心的实例点击进入swagger页面 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
         </dependency>
     </dependencies>
 </project>

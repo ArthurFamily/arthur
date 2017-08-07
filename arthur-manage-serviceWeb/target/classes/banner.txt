@@ -24,7 +24,7 @@ ${AnsiColor.BRIGHT_YELLOW}
 ////////////////////////////////////////////////////////////////////
 
 ${AnsiColor.BRIGHT_GREEN}
-ARTHUR
+ARTHUR-MANGE-SERVICEWEB
 
 
 ${AnsiColor.BLUE}:: Arthur🤓🤓🤓 ${version} :: Running Spring Boot ${spring-boot.version} ::
