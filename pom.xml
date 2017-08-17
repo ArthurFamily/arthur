@@ -16,18 +16,18 @@
     <packaging>pom</packaging>
     <version>v1</version>
     <modules>
-
         <!-- 注册中心与配置中心使用jhipster2.6.0 -->
         <module>arthur-eureka</module>
-        <!-- 后台管理之服务网管理 -->
-        <module>arthur-manage-serviceWeb</module>
+        <!-- 配置中心 -->
         <module>arthur-config-center</module>
-        <!-- 注册流程 -->
-        <module>arthur-manage-registrationProcess</module>
         <!-- 集中监控断路器仪表盘 -->
         <module>arthur-monitor-turbine</module>
         <!-- zuul网关 -->
-        <module>arthut-gateway</module>
+        <module>arthur-gateway</module>
+        <!-- 后台管理之服务网管理 -->
+        <module>arthur-manage-serviceWeb</module>
+        <!-- 注册流程 -->
+        <module>arthur-manage-registrationProcess</module>
     </modules>
 
     <properties>

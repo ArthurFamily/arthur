@@ -37,7 +37,6 @@ import java.util.List;
  * Created by chenzhen on 2017/7/25.
  */
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.cloud"})
 @Import({WebMvcConfig.class})
 @EnableScheduling
 @ServletComponentScan

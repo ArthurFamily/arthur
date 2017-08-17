@@ -52,7 +52,7 @@ eureka:
           zone: primary
           profile: ${spring.profiles.active}
           version: ${info.project.version}
-      status-page-url: http://localhost:${server.port}/swagger-ui.html
+      #配置swagger地址通过注册重点点击进入
       home-page-url: http://localhost:${server.port}/swagger-ui.html
 
 # 健康监控中心配置
